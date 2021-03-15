@@ -1,0 +1,9 @@
+1. Parsing
+1.1. Create supporing functions: get_soup_object, get id from href -> parsing functions.py
+1.2. Get all names and hrefs of applications for each category: appstore_parsing.py
+1.3. Create database and tables - create_db_and_table.py (App_info.db)
+1.4. Functions to get all relevant information from application page -  get_app_info_func.py (Errors are 
+directed to log.txt file)
+1.5. Populate tables with parsed information - populate_tables.py (Errors are directed to db_log.txt)
+
+2. Data preparation and analysis: app_analysis.ipynb
